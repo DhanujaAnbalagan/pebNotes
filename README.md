@@ -22,7 +22,7 @@ https://peb-notes-c2s1.vercel.app
   Your browser does not support the video tag.
 </video>
 
-> **[⬇ Download Demo Video](https://github.com/DhanujaAnbalagan/pebNotes/releases/download/v1.0.0/peblo-demo.mp4)** if the player above doesn't load.
+> **[⬇ Download Demo Video](https://github.com/DhanujaAnbalagan/pebNotes/releases/download/v1.0.0/peblo-demo.mp4)** 
 
 
 
