@@ -6,6 +6,18 @@ Peblo AI Notes Workspace combines modern note-taking workflows with AI-generated
 
 ---
 
+## App Preview
+
+<p align="center">
+  <img src="./public/screenshots/app-preview.png" alt="Peblo AI Notes Workspace - AI Insights in action" width="100%" />
+</p>
+
+<p align="center">
+  <strong>✨ AI Insights panel generating summaries, action items, and suggested titles in real time</strong>
+</p>
+
+---
+
 ## Live Demo
 
 ### Deployed Application
