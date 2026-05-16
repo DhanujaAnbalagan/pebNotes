@@ -16,13 +16,6 @@ Add your deployed Vercel link here:
 https://peb-notes-c2s1.vercel.app
 ```
 
-### Demo Video
-
-Add your demo video link here:
-
-```txt
-https://your-demo-video-link
-```
 
 ---
 
