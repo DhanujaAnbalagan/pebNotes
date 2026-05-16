@@ -11,12 +11,19 @@ Peblo AI Notes Workspace combines modern note-taking workflows with AI-generated
 
 ### Deployed Application
 
-
-
 ```txt
 https://peb-notes-c2s1.vercel.app
 ```
-## Demo Video
+
+### Demo Video
+
+**[▶ Watch Demo Video](https://github.com/DhanujaAnbalagan/pebNotes/releases/download/v1.0.0/peblo-demo.mp4)**
+
+> Download and play the demo video to see all features in action.
+
+---
+
+## App Preview
 
 <p align="center">
   <img src="./public/screenshots/app-preview.png" alt="Peblo AI Notes Workspace - AI Insights in action" width="100%" />
