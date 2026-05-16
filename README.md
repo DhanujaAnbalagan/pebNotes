@@ -21,20 +21,7 @@ https://peb-notes-c2s1.vercel.app
 
 > Download and play the demo video to see all features in action.
 
----
 
-## App Preview
-
-<p align="center">
-  <img src="./public/screenshots/app-preview.png" alt="Peblo AI Notes Workspace - AI Insights in action" width="100%" />
-</p>
-
-<p align="center">
-  <strong>✨ AI Insights panel generating summaries, action items, and suggested titles in real time</strong>
-</p>
-
-
----
 
 ## Project Overview
 
