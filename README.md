@@ -367,22 +367,6 @@ prisma/
 
 ---
 
-## Environment Variables
-
-Create a `.env` file in the root directory:
-
-```env
-DATABASE_URL="your_neon_database_url"
-
-JWT_SECRET="your_jwt_secret"
-
-NEXT_PUBLIC_APP_URL="http://localhost:3000"
-
-GEMINI_API_KEY="your_gemini_api_key"
-```
-
----
-
 ## Local Development Setup
 
 ### 1. Clone Repository
@@ -561,7 +545,6 @@ Interested in:
 
 - Full Stack Development
 - Artificial Intelligence
-- Cloud Computing
 - Scalable SaaS Systems
 
 ---
