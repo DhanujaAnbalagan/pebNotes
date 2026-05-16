@@ -1,0 +1,65 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id            String      @id @default(cuid())
+  name          String
+  email         String      @unique
+  password      String
+  avatar        String?
+  geminiApiKey  String?
+  createdAt     DateTime    @default(now())
+  updatedAt     DateTime    @updatedAt
+  notes         Note[]
+  aiInsights    AIInsight[]
+}
+
+model Note {
+  id            String      @id @default(cuid())
+  title         String
+  content       String?     @db.Text
+  archived      Boolean     @default(false)
+  isPublic      Boolean     @default(false)
+  shareId       String?     @unique
+  category      String?
+  createdAt     DateTime    @default(now())
+  updatedAt     DateTime    @updatedAt
+  reminderAt     DateTime?
+  reminderDismissed Boolean   @default(false)
+  
+  userId        String
+  user          User        @relation(fields: [userId], references: [id], onDelete: Cascade)
+  
+  tags          Tag[]
+  aiInsights    AIInsight[]
+}
+
+model Tag {
+  id            String      @id @default(cuid())
+  name          String      @unique
+  createdAt     DateTime    @default(now())
+  notes         Note[]
+}
+
+model AIInsight {
+  id              String    @id @default(cuid())
+  summary         String    @db.Text
+  actionItems     String?   @db.Text
+  suggestedTitle  String?
+  createdAt       DateTime  @default(now())
+  
+  noteId          String
+  note            Note      @relation(fields: [noteId], references: [id], onDelete: Cascade)
+  
+  userId          String
+  user            User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
