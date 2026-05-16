@@ -17,9 +17,12 @@ https://peb-notes-c2s1.vercel.app
 
 ### Demo Video
 
-**[▶ Watch Demo Video](https://github.com/DhanujaAnbalagan/pebNotes/releases/download/v1.0.0/peblo-demo.mp4)**
+<video width="100%" controls>
+  <source src="https://github.com/DhanujaAnbalagan/pebNotes/releases/download/v1.0.0/peblo-demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
-> Download and play the demo video to see all features in action.
+> **[⬇ Download Demo Video](https://github.com/DhanujaAnbalagan/pebNotes/releases/download/v1.0.0/peblo-demo.mp4)** if the player above doesn't load.
 
 ---
 
