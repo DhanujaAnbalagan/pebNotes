@@ -4,17 +4,6 @@ An AI-powered full-stack productivity platform built for the Peblo Full Stack De
 
 Peblo AI Notes Workspace combines modern note-taking workflows with AI-generated insights, autosave architecture, public sharing, analytics dashboards, and a polished SaaS-style user experience.
 
----
-
-## App Preview
-
-<p align="center">
-  <img src="./public/screenshots/app-preview.png" alt="Peblo AI Notes Workspace - AI Insights in action" width="100%" />
-</p>
-
-<p align="center">
-  <strong>✨ AI Insights panel generating summaries, action items, and suggested titles in real time</strong>
-</p>
 
 ---
 
@@ -29,7 +18,14 @@ https://peb-notes-c2s1.vercel.app
 ```
 ## Demo Video
 
-```txt  ```
+<p align="center">
+  <img src="./public/screenshots/app-preview.png" alt="Peblo AI Notes Workspace - AI Insights in action" width="100%" />
+</p>
+
+<p align="center">
+  <strong>✨ AI Insights panel generating summaries, action items, and suggested titles in real time</strong>
+</p>
+
 
 ---
 
