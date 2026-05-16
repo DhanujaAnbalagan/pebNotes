@@ -13,7 +13,7 @@ Peblo AI Notes Workspace combines modern note-taking workflows with AI-generated
 Add your deployed Vercel link here:
 
 ```txt
-https://your-project.vercel.app
+https://peb-notes-c2s1.vercel.app
 ```
 
 ### Demo Video
